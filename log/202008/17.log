@@ -1,0 +1,809 @@
+---------------------------------------------------------------
+
+[2020-08-17T17:52:35+08:00] 127.0.0.1 GET lin.test/apiv1theme
+[运行时间：0.057903s] [吞吐率：17.27req/s] [内存消耗：152.46kb] [文件加载：79]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+
+[2020-08-17T17:52:47+08:00] 127.0.0.1 GET lin.test/api/v1/theme
+[运行时间：0.009186s] [吞吐率：108.86req/s] [内存消耗：262.73kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '94cdd806-fcbb-4154-b3b5-3ec28e1f06be',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:52:52+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15
+[运行时间：0.006079s] [吞吐率：164.50req/s] [内存消耗：261.45kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'cb60f39b-8a5e-434e-a8fe-792c2b3d7f6c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:52:59+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.012383s] [吞吐率：80.76req/s] [内存消耗：261.45kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '52b1ab89-2e91-478b-88d6-c70a1aba5e7c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:52:59+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.003208s] [吞吐率：311.73req/s] [内存消耗：261.45kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '51ac8684-cf36-4ced-8db8-c72870633b5d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:53:38+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.003260s] [吞吐率：306.76req/s] [内存消耗：262.05kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '63799bf7-3ecf-45d7-88b4-7d3068befc10',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:53:40+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.014524s] [吞吐率：68.85req/s] [内存消耗：261.45kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '47bb1395-4d4a-4026-8646-936dea9325de',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:53:41+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.001985s] [吞吐率：503.76req/s] [内存消耗：261.45kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '4d4e3fb2-dab8-416f-bc65-d9192e6ab451',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:53:54+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.003301s] [吞吐率：302.93req/s] [内存消耗：264.34kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '25fb70ed-9fda-4455-8614-6f857f9f5755',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:53:55+08:00] 127.0.0.1 GET lin.test/api/v1/theme/15,4
+[运行时间：0.002498s] [吞吐率：400.33req/s] [内存消耗：262.05kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '427e3311-729a-41e3-8e5e-fbe6bc6b2046',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T17:54:20+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1
+[运行时间：0.002835s] [吞吐率：352.73req/s] [内存消耗：280.23kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '3f2f1362-5b2d-441d-96ab-f449ed893905',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:54:27+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1
+[运行时间：0.007946s] [吞吐率：125.85req/s] [内存消耗：255.03kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '7337e6fc-06a3-46f6-9df5-b0304710d97a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:54:32+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1.2
+[运行时间：0.010412s] [吞吐率：96.04req/s] [内存消耗：253.12kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '531b3999-6eae-4cd1-8e3a-211291104b87',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1.2',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:54:38+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,5
+[运行时间：0.002529s] [吞吐率：395.39req/s] [内存消耗：252.52kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '773daeee-f05d-467a-9655-322ad5bdca32',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,5',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:56:24+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,5
+[运行时间：0.003865s] [吞吐率：258.73req/s] [内存消耗：253.12kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '77fe553e-11bf-4620-aef5-2cef63c171cd',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,5',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:56:31+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,0.1
+[运行时间：0.004186s] [吞吐率：238.90req/s] [内存消耗：252.52kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '775ef3b9-5543-4220-b65d-caf30b726caa',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,0.1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:56:31+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,0.1
+[运行时间：0.007169s] [吞吐率：139.49req/s] [内存消耗：252.52kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'dfaa9940-d042-42ad-a31a-9304c7f96921',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,0.1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:57:41+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,0.1
+[运行时间：0.002331s] [吞吐率：429.00req/s] [内存消耗：253.77kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '68039761-5049-4ff5-9652-646e88f5b0d3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,0.1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T17:57:52+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.003749s] [吞吐率：266.75req/s] [内存消耗：252.91kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '4e22fb9d-aa80-4622-8ebe-a3e9c8936023',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T18:00:07+08:00] 127.0.0.1 GET lin.test/api/v1/banner/0.1
+[运行时间：0.007116s] [吞吐率：140.53req/s] [内存消耗：262.32kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/banner/<id>',
+  'route' => 'api/:version.Banner/getBanner',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'id' => '0.1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'd5175215-a63d-4b2b-b05a-2a89afb73bef',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '0.1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-17T18:00:22+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.004934s] [吞吐率：202.67req/s] [内存消耗：252.91kb] [文件加载：87]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '54a7ac66-6c5f-4d36-9076-b3438cb07121',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T18:00:44+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.005231s] [吞吐率：191.17req/s] [内存消耗：283.10kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'baa86955-1a7d-4ec3-bd97-8783c476086c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T18:01:01+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.003102s] [吞吐率：322.39req/s] [内存消耗：283.10kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '5ffde804-fec5-431c-ae48-a6e99b76e358',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T18:01:02+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.002017s] [吞吐率：495.78req/s] [内存消耗：280.82kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '0c1e0916-a00e-4ce0-9a7c-f8fa9f3ef6f0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T18:01:07+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.007420s] [吞吐率：134.77req/s] [内存消耗：283.10kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '230fe919-0f62-4c3a-b4c6-e0912acd0411',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-17T18:03:08+08:00] 127.0.0.1 GET lin.test/api/v1/banner/0.1
+[运行时间：0.006476s] [吞吐率：154.42req/s] [内存消耗：262.88kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/banner/<id>',
+  'route' => 'api/:version.Banner/getBanner',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'id' => '0.1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '5cad5491-5223-4d62-ad6d-29ea52bdeccb',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '0.1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]

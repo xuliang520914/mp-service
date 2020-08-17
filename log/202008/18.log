@@ -1,0 +1,362 @@
+---------------------------------------------------------------
+
+[2020-08-18T02:02:43+08:00] 127.0.0.1 GET lin.test/api/v1/banner/1
+[运行时间：0.224945s] [吞吐率：4.45req/s] [内存消耗：524.24kb] [文件加载：110]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/banner/<id>',
+  'route' => 'api/:version.Banner/getBanner',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'c682ef1e-3c66-4e16-ad1b-9694c7637544',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.098378s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.076323s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.003276s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001606s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.001725s ]
+---------------------------------------------------------------
+
+[2020-08-18T02:02:51+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=s
+[运行时间：0.006009s] [吞吐率：166.41req/s] [内存消耗：262.48kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '0d4cb734-8ac6-43d8-a190-c8af9622168d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => 's',
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-18T02:02:57+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1
+[运行时间：0.006245s] [吞吐率：160.13req/s] [内存消耗：280.23kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'e7c06445-151f-4af7-8954-7403ea955526',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-18T02:03:54+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1
+[运行时间：0.003250s] [吞吐率：307.70req/s] [内存消耗：282.93kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '903003d4-42f8-4d33-8ad9-a51d9157fb9b',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-18T02:04:07+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1
+[运行时间：0.112723s] [吞吐率：8.87req/s] [内存消耗：506.59kb] [文件加载：112]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'a6575e07-48ca-4b16-a827-fdd361a7f4a0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.054860s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 [ RunTime:0.030803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000934s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is' in 'where clause'[/Users/xuliang/code/php/lin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-18T02:10:21+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,2
+[运行时间：0.065730s] [吞吐率：15.21req/s] [内存消耗：504.24kb] [文件加载：112]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'de25dab3-b3dd-4214-8bdf-fe19fc76e421',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008641s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.017166s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.013509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004891s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is' in 'where clause'[/Users/xuliang/code/php/lin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-18T02:11:57+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,2
+[运行时间：0.050570s] [吞吐率：19.77req/s] [内存消耗：506.35kb] [文件加载：112]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '9b0e090f-285f-424e-a18a-e916428a2a99',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012850s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.015210s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.002178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.003593s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is' in 'where clause'[/Users/xuliang/code/php/lin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-18T02:12:27+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,2
+[运行时间：0.002313s] [吞吐率：432.36req/s] [内存消耗：280.85kb] [文件加载：86]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'ee926d7b-485c-4f15-ad74-2689991f8179',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-18T02:12:36+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,2
+[运行时间：0.013432s] [吞吐率：74.45req/s] [内存消耗：504.23kb] [文件加载：112]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '8c4e094e-92be-4c0b-8602-800aa4ef7a58',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.004766s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001604s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is' in 'where clause'[/Users/xuliang/code/php/lin/thinkphp/library/think/db/Connection.php:687]
+---------------------------------------------------------------
+
+[2020-08-18T02:27:41+08:00] 127.0.0.1 GET lin.test/api/v1/theme?ids=1,2
+[运行时间：0.035603s] [吞吐率：28.09req/s] [内存消耗：506.37kb] [文件加载：108]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme',
+  'route' => 'api/:version.Theme/getSimpleList',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '79ac2d9a-a256-478c-9ebc-e08ab205e703',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ids' => '1,2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005463s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008699s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002272s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001545s ]
