@@ -20,4 +20,18 @@ class Theme extends BaseModel
     {
         return $this->belongsToMany(Product::class, 'theme_product', 'product_id', 'theme_id');
     }
+
+    /**
+     * 获取单个主题
+     *
+     * @param $id
+     * @return array|\PDOStatement|string|\think\Model|null
+     * @throws \think\db\exception\DataNotFoundException
+     * @throws \think\db\exception\ModelNotFoundException
+     * @throws \think\exception\DbException
+     */
+    public static function getThemeWithProduct($id)
+    {
+        return self::with('product,topicImg,headImg')->find($id);
+    }
 }

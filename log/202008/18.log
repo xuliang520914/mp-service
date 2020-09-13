@@ -360,3 +360,602 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002272s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000408s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001545s ]
+---------------------------------------------------------------
+
+[2020-08-18T02:57:07+08:00] 127.0.0.1 GET lin.test/api/v1/theme/1
+[运行时间：0.161864s] [吞吐率：6.18req/s] [内存消耗：907.87kb] [文件加载：111]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme/<id>',
+  'route' => 'api/:version.Theme/getComplexOne',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'fca7b542-d729-4bec-9ba0-db03b8102220',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003494s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.010890s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.009656s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004300s ]
+[ sql ] [ SQL ] SELECT `product`.*,`pivot`.`theme_id` AS `pivot__theme_id`,`pivot`.`product_id` AS `pivot__product_id` FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.028476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001146s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+
+[2020-08-18T02:59:12+08:00] 127.0.0.1 GET lin.test/api/v1/theme/1
+[运行时间：0.024011s] [吞吐率：41.65req/s] [内存消耗：575.16kb] [文件加载：111]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme/<id>',
+  'route' => 'api/:version.Theme/getComplexOne',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'd594ac64-b7a3-4f74-a461-1db6dd2b829f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005003s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.001003s ]
+[ sql ] [ SQL ] SELECT `product`.*,`pivot`.`theme_id` AS `pivot__theme_id`,`pivot`.`product_id` AS `pivot__product_id` FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001147s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+
+[2020-08-18T03:07:56+08:00] 127.0.0.1 GET lin.test/api/v1/theme/1
+[运行时间：0.027707s] [吞吐率：36.09req/s] [内存消耗：575.36kb] [文件加载：111]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/theme/<id>',
+  'route' => 'api/:version.Theme/getComplexOne',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '60c1a3a1-1045-414a-8273-856fded7191d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002007s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006691s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.001474s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.002638s ]
+[ sql ] [ SQL ] SELECT `product`.*,`pivot`.`theme_id` AS `pivot__theme_id`,`pivot`.`product_id` AS `pivot__product_id` FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.002208s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+
+[2020-08-18T03:33:53+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=4
+[运行时间：0.097419s] [吞吐率：10.26req/s] [内存消耗：491.23kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'f90d1965-aa72-4f6d-8a4e-4f92a2f8ced0',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '4',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003423s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.068933s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 4 [ RunTime:0.009652s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:32:16+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=50
+[运行时间：0.013846s] [吞吐率：72.22req/s] [内存消耗：267.23kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'a9753a75-8878-4e43-8bcc-ede97528b91f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '50',
+  'version' => 'v1',
+)
+[ error ] [400][/Users/xuliang/code/php/lin/application/api/validate/BaseValidate.php:18]
+---------------------------------------------------------------
+
+[2020-08-18T13:36:22+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=5
+[运行时间：0.017436s] [吞吐率：57.35req/s] [内存消耗：491.23kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '8efff1c7-0776-476b-9fc4-6711d92b3b4a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '5',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002476s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005364s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 5 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:36:33+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.024245s] [吞吐率：41.25req/s] [内存消耗：489.65kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '2174f3f6-4601-48ee-9431-d12ded485f92',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001303s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.014674s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.002301s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:37:17+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.027010s] [吞吐率：37.02req/s] [内存消耗：495.33kb] [文件加载：108]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'cdc994ca-20df-4967-845d-9c94a2e2f01d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000814s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.008693s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.001214s ]
+[ error ] [0]致命错误: Call to undefined function app\api\controller\v1\collection()[/Users/xuliang/code/php/lin/application/api/controller/v1/Product.php:21]
+---------------------------------------------------------------
+
+[2020-08-18T13:39:18+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.018203s] [吞吐率：54.94req/s] [内存消耗：491.55kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'a6030092-934e-4e8b-848f-6e34628285d7',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005408s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.000736s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:39:29+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.013117s] [吞吐率：76.24req/s] [内存消耗：493.13kb] [文件加载：108]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '056bed24-c483-4db6-989d-25c778fea08f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001018s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005063s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.000798s ]
+[ error ] [0]致命错误: Call to undefined method think\Collection::hidden()[/Users/xuliang/code/php/lin/application/api/controller/v1/Product.php:23]
+---------------------------------------------------------------
+
+[2020-08-18T13:40:03+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.011995s] [吞吐率：83.37req/s] [内存消耗：518.84kb] [文件加载：102]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'ce1c2b8d-ded0-444a-aa4b-f83f2ea03be2',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004272s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.002147s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:40:54+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.023312s] [吞吐率：42.90req/s] [内存消耗：517.64kb] [文件加载：103]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'db9d764a-acce-4d33-8d00-b83bcdb32968',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001972s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006656s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.001406s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:41:02+08:00] 127.0.0.1 GET lin.test/api/v1/product/recent?count=2
+[运行时间：0.014947s] [吞吐率：66.90req/s] [内存消耗：490.21kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/product/recent',
+  'route' => 'api/:version.Product/getRecent',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '02d7b15f-0db1-4b2a-ae6c-927150c09420',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'count' => '2',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002629s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005248s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY `create_time` DESC LIMIT 2 [ RunTime:0.000822s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:54:24+08:00] 127.0.0.1 GET lin.test/api/v1/category/all
+[运行时间：0.083783s] [吞吐率：11.94req/s] [内存消耗：501.53kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/category/all',
+  'route' => 'api/:version.Category/getAllCategories',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '2df95b34-31d4-4da1-9a3e-b02f6fa14d2d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002933s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.017493s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.011179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.024259s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.007802s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:55:43+08:00] 127.0.0.1 GET lin.test/api/v1/category/all
+[运行时间：0.017837s] [吞吐率：56.06req/s] [内存消耗：500.97kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/category/all',
+  'route' => 'api/:version.Category/getAllCategories',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '8726c2ea-5aa0-4e00-a717-b6857d6dc20c',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001680s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.002557s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.003766s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001667s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.000943s ]
+---------------------------------------------------------------
+
+[2020-08-18T13:58:00+08:00] 127.0.0.1 GET lin.test/api/v1/category/all
+[运行时间：0.012872s] [吞吐率：77.69req/s] [内存消耗：500.98kb] [文件加载：104]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/category/all',
+  'route' => 'api/:version.Category/getAllCategories',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'e6641a87-7c89-42ec-9856-8831211dda27',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.003274s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.001262s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001757s ]

@@ -1,0 +1,480 @@
+---------------------------------------------------------------
+
+[2020-08-19T01:00:32+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.106377s] [吞吐率：9.40req/s] [内存消耗：270.14kb] [文件加载：95]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'e88a56a1-03f3-4231-b8f5-890ddd8f7326',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023UFCkl2rBHs54LdAol2vRjHQ1UFCkM',
+  'version' => 'v1',
+)
+[ error ] [0]类型错误: Too few arguments to function app\api\Service\UserToken::__construct(), 0 passed in /Users/xuliang/code/php/lin/application/api/controller/v1/Token.php on line 16 and exactly 1 expected[/Users/xuliang/code/php/lin/application/api/Service/UserToken.php:20]
+---------------------------------------------------------------
+
+[2020-08-19T01:00:51+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.413206s] [吞吐率：2.42req/s] [内存消耗：269.89kb] [文件加载：95]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '99f43055-fe6c-4be1-b580-565e65e81368',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023UFCkl2rBHs54LdAol2vRjHQ1UFCkM',
+  'version' => 'v1',
+)
+[ error ] [0]致命错误: Call to undefined function app\api\Service\dd()[/Users/xuliang/code/php/lin/application/api/Service/UserToken.php:32]
+---------------------------------------------------------------
+
+[2020-08-19T01:01:21+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.267466s] [吞吐率：3.74req/s] [内存消耗：291.04kb] [文件加载：90]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'cb7dce60-2ce9-45d0-9414-ffe10a44315e',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '053IAjFa1DWLsz0IBqGa1DWLsk0IAjFx',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-19T01:45:56+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.384897s] [吞吐率：2.60req/s] [内存消耗：267.59kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '15917af1-71e2-4b2b-94c3-3ec06987e5f3',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '023wmc0w3FSCNU2ajT3w3DS4jB2wmc06',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-19T19:22:30+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.433172s] [吞吐率：2.31req/s] [内存消耗：267.17kb] [文件加载：93]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'af707eb7-cbcc-4ea1-ad30-76198508b26f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '0935AzFa1C9jtz0KuXIa1t1YCH15AzFx',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-19T19:23:25+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.493179s] [吞吐率：2.03req/s] [内存消耗：467.70kb] [文件加载：107]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'b2bea872-87f9-406d-92db-747aacce4847',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '053yCzFa1Z3jtz0vdMFa1SzmLI1yCzF7',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037606s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031526s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.063430s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openid`) VALUES ('o3GX50DBHwxlAJyDLH9j1iOq_1Eg') [ RunTime:0.018713s ]
+---------------------------------------------------------------
+
+[2020-08-19T19:23:53+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.387529s] [吞吐率：2.58req/s] [内存消耗：272.18kb] [文件加载：99]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '7452198a-b587-487f-82ac-eab18823788a',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '053yCzFa1Z3jtz0vdMFa1SzmLI1yCzF7',
+  'version' => 'v1',
+)
+[ error ] [8]未定义数组索引: openid[/Users/xuliang/code/php/lin/application/api/Service/UserToken.php:56]
+---------------------------------------------------------------
+
+[2020-08-19T19:24:13+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.305888s] [吞吐率：3.27req/s] [内存消耗：266.73kb] [文件加载：94]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '82fdf0a6-69a5-43ad-8aa1-453b444d1dba',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '093gZSkl2tUet54CVwnl2mxan13gZSkZ',
+  'version' => 'v1',
+)
+---------------------------------------------------------------
+
+[2020-08-19T19:25:01+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.395519s] [吞吐率：2.53req/s] [内存消耗：519.07kb] [文件加载：106]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '62030a4e-795d-40ad-8084-209b7ab2768d',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '053Ikc0w3IpVNU27NT0w3e6V7l4Ikc0M',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006331s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010716s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.004335s ]
+---------------------------------------------------------------
+
+[2020-08-19T19:26:42+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.285620s] [吞吐率：3.50req/s] [内存消耗：492.99kb] [文件加载：108]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => 'd458f383-1550-4cb4-8d16-01f25eba2514',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013Exg000dFB8K1faY000aPyGf2Exg0Q',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003500s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017685s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.002479s ]
+---------------------------------------------------------------
+
+[2020-08-19T19:27:38+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.307092s] [吞吐率：3.26req/s] [内存消耗：492.99kb] [文件加载：108]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '74a23ca8-6709-43dd-b765-299919ebf86f',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '013Ouc0w3i5VNU2o1W2w3WHQ3h0Ouc0Q',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008734s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016418s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.000904s ]
+---------------------------------------------------------------
+
+[2020-08-19T19:28:40+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.349666s] [吞吐率：2.86req/s] [内存消耗：492.98kb] [文件加载：108]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '447d9065-86f2-4dc5-9367-b88aafa18e67',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '063Gyc0w3c9VNU2J5YZv3WrAHQ1Gyc0S',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001950s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004086s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+
+[2020-08-19T19:29:29+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.302906s] [吞吐率：3.30req/s] [内存消耗：492.34kb] [文件加载：107]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '027af303-bcaa-4567-9ad3-1d39a26921f1',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '073L0AFa1yCitz02vrHa1blXEp4L0AFN',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012921s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+
+[2020-08-19T19:30:08+08:00] 127.0.0.1 POST lin.test/api/v1/token/user
+[运行时间：0.452291s] [吞吐率：2.21req/s] [内存消耗：492.32kb] [文件加载：107]
+[ info ] [ LANG ] /Users/xuliang/code/php/lin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'api/<version>/token/user',
+  'route' => 'api/:version.Token/getToken',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+    'version' => 'v1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'lin.test',
+  'postman-token' => '97045950-6653-4d79-b6f2-24b9e617f8e4',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.17.1',
+  'content-type' => 'application/json',
+)
+[ info ] [ PARAM ] array (
+  'code' => '033ClTkl2kret54mMBnl2GuR0a2ClTkP',
+  'version' => 'v1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001797s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009140s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'o3GX50DBHwxlAJyDLH9j1iOq_1Eg' LIMIT 1 [ RunTime:0.001030s ]
